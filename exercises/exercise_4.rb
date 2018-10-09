@@ -45,4 +45,5 @@ pp @womens_store
 
 @womens_store.all().each do |store|
   p store.name
+  p store.annual_revenue
 end
